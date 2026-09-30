@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "nodemon ./index.js localhost 8081"
+    "dev": "nodemon ./index.js localhost 8081"
   },
   "keywords": [
     "sample",
@@ -22,16 +22,21 @@
     "app",
     "api"
   ],
-  "author": {
-    "name": "Pritesh Patel",
-    "email": "sample@gb.ca"
-  },
+  "author": "Pritesh Patel <sample@gb.ca>",
   "homepage": "https://nodejs.org/",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.22.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.4"
+    "nodemon": "^3.1.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricrdolimma/COMP3123.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ricrdolimma/COMP3123/issues"
   }
 }
